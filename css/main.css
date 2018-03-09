@@ -7,14 +7,15 @@ body{
 }
 
 .header-inner{
-	width: 800px;
 	margin-bottom: 80px;
 	padding:35px 0;
 	position: relative;
 	margin: 0 auto;
 }
 
-
+.site-nav{
+	padding-bottom: 5px;
+}
 .menu {
   float: right;
   margin: 8px 0 0 20px;
@@ -28,6 +29,7 @@ body{
   	float:left;
     margin-left: 2px;
     padding: 5px;
+    list-style: none
 }
  
 .menu .menu-item a {
@@ -44,4 +46,6 @@ body{
   display: none;
 }
  
- 
+ .pageContent{
+ 	margin-left: 5px;
+ }
