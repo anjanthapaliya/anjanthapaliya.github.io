@@ -20,58 +20,33 @@ body{
   margin: 8px 0 0 20px;
   padding: 0 20px;
 }
-@media (max-width: 767px) {
-  .menu {
-    margin: 0;
-    padding: 0;
-  }
-}
+ 
 .menu br {
   display: none;
 }
 .menu .menu-item {
   margin-left: 0;
 }
-@media (max-width: 767px) {
-  .menu .menu-item {
-    display: block;
-  }
-}
+ 
 .menu .menu-item a {
   padding: 5px 10px;
   background: none;
   border: none;
   transition-property: background;
 }
-@media (max-width: 767px) {
-  .menu .menu-item a {
-    text-align: left;
-  }
-}
+ 
 .menu .menu-item a:hover {
   background: #e1e1e1;
 }
 .menu a::before {
   display: none;
 }
-@media (max-width: 767px) {
-  .menu a::before {
-    display: block;
-  }
-}
-@media (max-width: 767px) {
-  .menu {
-    float: none;
-  }
-}
+ 
+ 
 .menu-left {
   float: left;
 }
-@media (max-width: 767px) {
-  .menu-left {
-    float: none;
-  }
-}
+ 
 .menu-item-icon {
   display: none;
 }
