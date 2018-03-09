@@ -25,7 +25,9 @@ body{
   display: none;
 }
 .menu .menu-item {
-  margin-left: 0;
+  	float:left;
+    margin-left: 2px;
+    padding: 5px;
 }
  
 .menu .menu-item a {
@@ -43,10 +45,3 @@ body{
 }
  
  
-.menu-left {
-  float: left;
-}
- 
-.menu-item-icon {
-  display: none;
-}
