@@ -2,8 +2,9 @@ body{
 	background: #fff ;
 }
 .brand, .site-title{
- 	text-decoration: overline line-through !important;
+ 	text-decoration: overline underline !important;
   	text-decoration-color: teal !important;
+  	text-decoration-style: dotted !important;
 }
 .header{
 	background: #f5f5f5;
