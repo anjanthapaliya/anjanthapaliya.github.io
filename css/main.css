@@ -1,7 +1,11 @@
 body{
 	background: #fff ;
 }
-
+.site-title{
+ 	text-decoration: overline overline;
+ 	text-orientation: use-glyph-orientation;
+ 	text-decoration-color: teal;
+}
 .header{
 	background: #f5f5f5;
 }
