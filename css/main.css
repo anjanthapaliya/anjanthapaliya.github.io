@@ -9,6 +9,14 @@ a{
   	text-decoration-color: teal !important;
   	text-decoration-style: dotted !important;
 }
+
+.site-title{
+  padding-left:25px;
+  background:url(/img/Spider.png) no-repeat bottom right;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
 .header{
 	background: beige;
 }
