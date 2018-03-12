@@ -1,5 +1,8 @@
 body{
-	background: #fff ;
+  background: #fff ;  
+}
+a{
+  color: teal;
 }
 .brand, .site-title{
  	text-decoration: overline underline !important;
