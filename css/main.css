@@ -14,8 +14,8 @@ a{
 }
 
 .header-inner{
-  width: 300px;
-	margin-bottom: 80px;
+  margin-bottom: 80px;
+  padding: 20px 0;
 	position: relative;
 	margin: 0 auto;
 }
