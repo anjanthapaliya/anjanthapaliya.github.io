@@ -14,8 +14,8 @@ a{
   padding-left:25px;
   background:url(/img/Spider.png) no-repeat bottom right;
   display: inline-block;
-  height: 22px;
-  width: 22px;
+  /*height: 22px;
+   width: 22px;*/
 }
 .header{
 	background: beige;
