@@ -1,21 +1,15 @@
-body{
-  background: ghostwhite ;  
+* {
+	box-sizing: inherit;
 }
-a{
-  color: teal;
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
 }
-.brand, .site-title{
- 	text-decoration: overline underline !important;
-  	text-decoration-color: teal !important;
-  	text-decoration-style: dotted !important;
+html {
+	box-sizing: border-box;
 }
-
-.site-title{
-  padding-left:25px;
-  background:url(/img/Spider.png) no-repeat bottom right;
-  display: inline-block;
-  /*height: 22px;
-   width: 22px;*/
+*::before, *::after {
+	box-sizing: inherit;
 }
 
 .fade-in {
@@ -31,7 +25,13 @@ a{
 	animation-duration: 1s;
 }
 
-
+.fade-in.one{
+	animation-delay: 0.75s;
+}
+h1{
+	color: #222;
+	font-family: Nunito Sans, sans-serif;	
+}
 .nav-center {
 	text-align: center;
 }
@@ -100,7 +100,19 @@ a {
 	padding: 3rem 1.5rem;
 }
 
+/*
+.brand, .site-title{
+ 	text-decoration: overline underline !important;
+  	text-decoration-color: teal !important;
+  	text-decoration-style: dotted !important;
+}
 
+.site-title{
+  padding-left:25px;
+  background:url(/img/Spider.png) no-repeat bottom right;
+  display: inline-block;
+
+}
 
 .header{
 	background: beige;
@@ -108,7 +120,6 @@ a {
 
 .header-inner{
   margin-bottom: 80px;
-  /*padding: 20px 0;*/
 	position: relative;
 	margin: 0 auto;
 }
@@ -149,3 +160,4 @@ a {
  .pageContent{
  	margin-left: 25px;
  }
+ */
