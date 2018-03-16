@@ -66,6 +66,7 @@ h1{
 
 .nav-center {
 	text-align: center;
+	padding: 10px 10px;
 }
 a {
 	color: #00b8d4;
@@ -102,6 +103,7 @@ a {
 .nav-item {
 	text-transform: uppercase;
 	font-size: 14px;
+	padding-right: 10px
 }
 .nav-center a {
 	display: none;
