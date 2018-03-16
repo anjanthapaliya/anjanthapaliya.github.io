@@ -17,6 +17,91 @@ a{
   /*height: 22px;
    width: 22px;*/
 }
+
+.fade-in {
+	opacity: 0;
+	-webkit-animation: fadeIn ease-in 1;
+	-moz-animation: fadeIn ease-in 1;
+	animation: fadeIn ease-in 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+
+.nav-center {
+	text-align: center;
+}
+a {
+	color: #00b8d4;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition: none 86ms ease-out;
+	transition: none 86ms ease-out;
+}
+a {
+	color: #00b8d4;
+	hover-color: #000;
+	hover-font-style: none;
+	active-color: #00b8d4;
+}
+.nav-item {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	font-size: 1rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	line-height: 1.5;
+	padding: 0.5rem 0.75rem;
+}
+.nav-item {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.nav-center a {
+	display: none;
+}
+/* @media all and (min-width:600px) */
+.nav-center a {
+	display: inline-block;
+}
+.nav-item a, a.nav-item {
+	color: #7a7a7a;
+}
+.nav-center a.hamburger {
+	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* @media all and (min-width:600px) */
+#hamburger {
+	display: none;
+}
+
+.section {
+	background-color: #fff;
+	padding: 3rem 1.5rem;
+}
+
+
+
 .header{
 	background: beige;
 }
