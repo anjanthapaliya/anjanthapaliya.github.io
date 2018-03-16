@@ -146,6 +146,9 @@ a {
 	padding: 3rem 1.5rem;
 }
 
+.myProjects {
+	list-style: none;
+}
 /*
 .brand, .site-title{
  	text-decoration: overline underline !important;
