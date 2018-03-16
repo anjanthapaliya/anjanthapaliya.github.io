@@ -26,11 +26,11 @@ body{
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-hero-content-wrapper{
+.hero-content-wrapper{
 	padding-top: 18rem;
 	padding-bottom: 18rem;
 }
-hero-content{
+.hero-content{
 	max-width: 1000px;
 	position: relative;
 }
