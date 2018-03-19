@@ -128,8 +128,17 @@ a {
   text-decoration: none;
 }
 
-a.nav-item + a.nav-item::before{
+/*a.nav-item + a.nav-item::before{
   content: "|\0020\0020\0020";
+}*/
+
+#myTopnav a{
+  display: inline;
+  padding: 0 10px;
+  border-left: solid 1px black;
+}
+#myTopnav a:first-child{
+  border-left: none;
 }
 
 .nav-center a {
