@@ -129,7 +129,7 @@ a {
 }
 
 a.nav-item + a.nav-item::before{
-  content: " | ";
+  content: "|\0020\0020\0020";
 }
 
 .nav-center a {
