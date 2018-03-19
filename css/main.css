@@ -37,6 +37,10 @@ body{
 .social-icons{
 	padding: 10px 10px;
 }
+
+.fa-twitter, .fa-github, .fa-linkedin{
+  font-size: 25px;
+}
 .superBolded{ 
     font-size: 6rem; 
 }
@@ -122,6 +126,10 @@ a {
 
 .nav-item, .nav-item:hover{
   text-decoration: none;
+}
+
+a.nav-item + a.nav-item::before{
+  content: " | ";
 }
 
 .nav-center a {
