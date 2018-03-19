@@ -140,7 +140,9 @@ a {
 #myTopnav a:first-child{
   border-left: none;
 }
-
+#myTopnav a:last-child{
+  display: none;
+}
 .nav-center a {
 	display: none;
 }
