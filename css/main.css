@@ -134,8 +134,8 @@ a {
 
 #myTopnav a{
   display: inline;
-  padding: 0 10px;
-  border-left: solid 1px black;
+  padding: 0 15px;
+  border-left: dotted 1px grey;
 }
 #myTopnav a:first-child{
   border-left: none;
