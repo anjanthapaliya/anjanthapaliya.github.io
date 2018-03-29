@@ -146,6 +146,11 @@ a.nav-item:before {
 	transform: scaleX(1);
   }
   
+  a.nav-item:active, a.nav-item:focus {
+	outline: 0;
+	border: none;
+	-moz-outline-style: none
+  }
 
 /*a.nav-item + a.nav-item::before{
   content: "|\0020\0020\0020";
