@@ -149,7 +149,8 @@ a.nav-item:before {
   a.nav-item:active, a.nav-item:focus {
 	outline: 0;
 	border: none;
-	-moz-outline-style: none
+	-moz-outline-style: none;
+	text-decoration: none;
   }
 
 /*a.nav-item + a.nav-item::before{
