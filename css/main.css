@@ -164,7 +164,7 @@ a.nav-item:before {
 }
 @media (max-width: 480px) {  
 	#myTopnav a{
-		padding: 0px;
+		padding: 10px;
 	}
 }
 #myTopnav a:first-child{
