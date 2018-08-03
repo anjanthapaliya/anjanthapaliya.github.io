@@ -27,8 +27,8 @@ body{
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .hero-content-wrapper{
-	padding-top: 12rem;
-	padding-bottom: 10rem;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
 }
 .hero-content{
 	max-width: 1100px;
@@ -165,6 +165,10 @@ a.nav-item:before {
 @media (max-width: 480px) {  
 	#myTopnav a{
 		padding: 10px;
+	}
+	.hero-content-wrapper{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
 	}
 }
 #myTopnav a:first-child{
