@@ -162,6 +162,11 @@ a.nav-item:before {
   padding: 0 35px;
   border-left: dotted 1px grey;
 }
+@media (max-width: 480px) {  
+	#myTopnav a{
+		padding: 0px;
+	}
+}
 #myTopnav a:first-child{
   border-left: none;
 }
