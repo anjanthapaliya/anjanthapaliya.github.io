@@ -31,7 +31,7 @@ body{
 	padding-bottom: 15rem;
 }
 .hero-content{
-	max-width: 1100px;
+	max-width: 1080px;
 	position: relative;
 }
 .social-icons{
@@ -42,7 +42,7 @@ body{
   font-size: 45px;
 }
 .superBolded{ 
-    font-size: 6rem; 
+    font-size: 8rem; 
 }
 
 h1{
@@ -65,21 +65,6 @@ a {
 	hover-font-style: none;
 	active-color: #00b8d4;
 }
-/* .nav-item {
-	-webkit-box-align: center;
-	align-items: center;
-	font-size: 1rem;
-	-webkit-box-pack: center;
-	justify-content: center;
-	line-height: 1.5;
-	padding: 0.5rem 0.75rem;
-}
-.nav-item {
-	text-transform: uppercase;
-	font-size: 16px;
-	padding-right: 20px;
-} */
-
 .nav-item{
 	position: relative;
 	color: #000;
@@ -91,39 +76,8 @@ a {
 	padding-right: 20px;
 }
 .nav-item:hover{
-	text-decoration: none;
+	text-decoration: underline;
 }
-a.nav-item:before {
-	content: "";
-	position: absolute;
-	width: 80%;
-	height: 2px;
-	bottom: -5px;
-	left: 20px;
-	background-color: #00b8d4;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-  }
-  
-  a.nav-item:hover:before {
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-  }
-  
-  a.nav-item:active, a.nav-item:focus {
-	outline: 0;
-	border: none;
-	-moz-outline-style: none;
-	text-decoration: none;
-  }
-
-/*a.nav-item + a.nav-item::before{
-  content: "|\0020\0020\0020";
-}*/
 
 #myTopnav a{
   display: inline;
